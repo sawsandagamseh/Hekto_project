@@ -1,0 +1,56 @@
+body{
+    font-family: var(--mainFont);
+    color: var(--primary);
+}
+
+.header{
+    
+     padding: 57px 0px;
+} 
+
+ul{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+   
+}
+
+.header .bar{
+    display: none;
+}
+
+.search button{
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+   padding: 3px 8px;
+}
+.search input{
+
+     border: none;
+    outline: none;
+    width:200px;
+    
+    
+    padding-left: 10px;
+
+}
+.search form{
+
+    border: 2px solid #E7E6EF;
+    border-radius: 5px;
+}
+.search img{
+    width: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    .header .list,.header .search{
+        display: none;
+    }
+
+    .header .bar{
+    display: block;
+}
+   
+}
