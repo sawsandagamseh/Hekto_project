@@ -19,6 +19,9 @@ ul{
     
 }
 
+.text-white{
+    color: #fff;
+}
 .btn{
    
     color: #fff;
@@ -40,9 +43,38 @@ ul{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .container{
     width: calc( 100% - 320px );
     margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.align_start{
+    align-items: flex-start;
+}
+
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
 }
