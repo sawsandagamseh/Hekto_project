@@ -50,6 +50,44 @@ ul {
 
 /* End header */
 
+/* start client */
+
+.clients{
+  padding: 50px 0px;
+
+}
+
+.clients .row{
+  flex-wrap: nowrap;
+  
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.clients .logo{
+  width: calc((100% - 70px ) / 6);
+}
+
+.clients img{
+  width:150px;
+  height: 100px;
+}
+@media screen and (max-width:900px) {
+
+  .clients .logo{
+  width: calc((100% - 30px ) / 3);
+}
+
+@media screen and (max-width:572px){
+
+   .clients .logo{
+  width: calc((100% - 15px ) / 2);
+}
+
+  
+}
+/* end client */
+
 /* Start footer */
 .footer {
   background-color: #eeeffb;
@@ -110,5 +148,5 @@ ul {
     margin-bottom: 40px;
     
   }
-}
+}}
 /* End footer */
