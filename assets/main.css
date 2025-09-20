@@ -50,8 +50,30 @@ ul {
 
 /* End header */
 
-/* start client */
 
+/* start newsLetter */
+
+.newsLetter{
+  background-image: url(./img/bublic/newsleeter.webp);
+  padding: 175px 0px 100px 0px;
+  text-align: center;
+}
+.newsLetter h2{
+  margin-bottom: 50px;
+  color: var(--mainFontColor);
+  font-size: 35px;
+}
+
+.shop-btn{
+  transition: all 0.5s;
+}
+.shop-btn:hover{
+background-color: var(--mainFontColor);
+}
+
+/* End newsLetter */
+
+/* start client */
 .clients{
   padding: 50px 0px;
 
@@ -85,7 +107,7 @@ ul {
 }
 
   
-}
+}}
 /* end client */
 
 /* Start footer */
