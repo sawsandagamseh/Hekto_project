@@ -234,6 +234,51 @@ ul {
 
 /* end leatest product  */
 
+/* Start shpex offer  */
+
+.shopBox{
+  padding: 0px 0px 100px 0px; ;
+}
+
+.shopBox .row{
+  gap: 50px;
+}
+
+.shopBox h2{
+  padding-bottom: 30px;
+  color: var(--mainFontColor);
+}
+
+.shopex-item{
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 200px;
+  padding: 40px 10px 5px 10px;
+   box-shadow: 2px 2px 2px 2px #7c797940;
+   transition: all 0.5s;
+}
+
+.shopex-item:hover{
+  box-shadow: 2px 2px 2px 2px var(--mainFontColor);
+}
+
+.shopex-item img{
+  width: 40px;
+  height: 40px;
+}
+.shopex-item h3{
+  color: var(--mainFontColor);
+
+}
+
+.shopex-item p{
+  color: #ACABC3;
+  font-size: 13px;
+}
+
+
+/* End shopex item */
+
 /* start newsLetter */
 
 .newsLetter{
