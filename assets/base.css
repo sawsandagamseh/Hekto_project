@@ -48,13 +48,13 @@ ul{
 }
 
 .container{
-    width: calc( 100% - 320px );
+    width: calc( 100% - 250px );
     margin: auto;
 }
 
 @media screen and (max-width:1400px) {
     .container{
-        width: calc(100% - 200px);
+        width: calc(100% - 250px);
     }
 }
 
