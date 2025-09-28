@@ -48,7 +48,7 @@ ul{
 }
 
 .container{
-    width: calc( 100% - 250px );
+    width: calc( 100% - 322px );
     margin: auto;
 }
 
@@ -116,4 +116,7 @@ ul{
 }
 .text-secondary{
     color: var(--mainFontColor);
+}
+
+text-thirdcolor{
 }
