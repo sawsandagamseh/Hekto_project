@@ -8,6 +8,7 @@ body {
 }
 
 
+
 .header {
   padding: 57px 0px;
 }
@@ -365,8 +366,11 @@ ul {
 /* End shopex item */
 
 /* start trending product */
+.trendingProductContunt{
+  padding: 50px 0px;
 
-.T-products .row{
+}
+.trendingProductContunt .row{
 
   gap: 20px;
 }
@@ -410,6 +414,77 @@ ul {
   text-decoration: line-through;
   padding-left: 20px;
   color: #ACABC3;
+}
+
+
+.firstOffer , .secondOffer {
+    position: relative;
+    padding: 20px 20px 100px 20px;
+    
+    width: 30%;
+    flex: 1 0 200px;
+    
+}
+.firstOffer {
+  background-color: #FFF6FB;
+}
+
+ .secondOffer {
+  
+  background-color: #F5F6F8;
+
+ }
+
+ .firstOffer h3 , .secondOffer h3{
+  color: var(--mainFontColor);
+ }
+
+ 
+ .firstOffer a , .secondOffer a{
+  color: var(--primary);
+  text-decoration: underline;
+ }
+
+.firstOffer-img {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+   
+}
+
+.firstOffer img , .secondOffer img{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.moreOffer {
+  align-items: center;
+  flex-grow: 1 0 200px;
+}
+.OthertOfferItem{
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 50px;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.other-image{
+  background-color: #F5F6F8;
+  padding: 2px;
+}
+
+.OthertOfferItem img{
+  width: 30px;
+  height: 30px;
+  
+}
+.other-text{
+  text-align: left;
+  color:var(--mainFontColor);
+  font-size: 12px;
+  font-weight: bold;
 }
 /* end trending product */
 
