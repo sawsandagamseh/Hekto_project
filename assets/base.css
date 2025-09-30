@@ -52,6 +52,14 @@ ul{
     margin: auto;
 }
 
+.justfy-center{
+    justify-content: center;
+}
+.align_center{
+    align-items: center;
+}
+
+
 @media screen and (max-width:1400px) {
     .container{
         width: calc(100% - 250px);

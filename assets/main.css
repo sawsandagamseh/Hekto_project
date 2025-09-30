@@ -460,7 +460,7 @@ ul {
 }
 .topCategories-item {
   flex: 1 0 250px;
-  position: relative;
+ 
   transition: all 0.6s;
   border-radius: 50%;
 }
@@ -471,18 +471,17 @@ ul {
   outline: none;
   border-radius: 4px;
   background-color: #08d15f;
-  position: absolute;
-  bottom: 15px;
-  left: 80px;
-  display: none;
+ 
+  visibility: hidden;
 }
 
 .topCategories-item:hover{
   box-shadow: 0px 4px 4px #2f1ac4;
+  
 }
 
 .topCategories-item:hover a{
-  display: block ;
+ visibility:visible; 
 
 }
 
@@ -491,6 +490,7 @@ ul {
   padding: 40px 40px 50px;
   background-color: #f5f6f8;
   border-radius: 50%;
+  transition: all 0.6;
   
 }
 .topCategories-item img {
